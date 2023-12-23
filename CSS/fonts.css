@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: "HalvarBreitschriftBold";
+    src: url("../Fonts/HalvarBreitschriftBold.ttf") format("truetype");
+    font-style: bold;
+    font-weight: normal;
+    }
+
+    @font-face {
+        font-family: "HalvarBreitschriftLightSuperSlanted";
+        src: url("../Fonts/HalvarBreitschriftLightSuperSlanted.ttf") format("truetype");
+        font-style: light;
+        font-weight: normal;
+        }
+
+@font-face {
+      font-family: "HalvarBreitschriftRegular";
+      src: url("../Fonts/HalvarBreitschriftRegular.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+     }
+
+    @font-face {
+      font-family: "HalvarBreitschriftThin";
+      src: url("../Fonts/HalvarBreitschriftThin.ttf") format("truetype");
+      font-style: thin;
+      font-weight: normal;
+       }
+                
+@font-face {
+        font-family: "HalvarBreitschriftThinSuperSlanted";
+        src: url("../Fonts/HalvarBreitschriftThinSuperSlanted.ttf") format("truetype");
+        font-style: thin;
+        font-weight: normal;
+        }
+                    
+        @font-face {
+            font-family: "HalvarBreitschriftExtraThin";
+            src: url("../Fonts/HalvarBreitschriftExtraThin.ttf") format("truetype");
+            font-style: thin;
+            font-weight: normal;
+            }
+
+    

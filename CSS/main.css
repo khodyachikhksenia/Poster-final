@@ -1,0 +1,751 @@
+html {
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+   
+}
+
+.all {
+    overflow: hidden;
+}
+
+.firstblock{
+    display: flex;
+    width: 100%;
+    height: 36vw;
+    overflow: hidden; 
+    position: relative;
+}
+
+
+ .bluebox{
+ background-color: #2F1CFF;
+ width: 25%;
+ height: 35vw;
+ overflow: hidden;
+ 
+ }
+
+.yellowbox{
+    background-color: #ffff;
+    width: 25%;
+    height: 35vw;
+    overflow: hidden;
+
+    }
+
+
+.greenbox{
+    background-color: #3CAB55;
+    width: 25%;
+    height: 35vw;
+    overflow: hidden;
+}
+
+.redbox{
+    background-color: #ffff;
+    width: 25%;
+    height: 35vw;
+    overflow: hidden;
+   
+}
+
+.blue {
+    width: 25vw;
+    height: 36vw;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+     
+}
+
+.yellow {
+    width: 25vw;
+    height: 36vw;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+
+.green {
+    width: 25vw;
+    height: 36vw;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+
+.red {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+
+}
+    
+/* 2 block */
+
+.secondeblock {
+position: relative;
+width: 100%;
+height: 36vw;
+}
+
+
+.framerose {
+    width: 50vw;
+    height: 36vw;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0vw;
+    opacity: 100%;
+    
+}
+
+.framerose:hover{
+    opacity: 0%;
+    }
+
+.rosetwo {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    opacity: 100%;
+    margin-top: 0vw;
+    margin-left: 50vw;
+    
+}
+.rosetwo:hover{
+    opacity: 0%;
+    }
+
+.into {
+    width: 15vw;
+    height: 26vw;
+    display: flex;
+    margin-left: 80vw;
+    margin-top: 5vw;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.intobox {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-left: 75vw;
+}
+
+/* extra */
+
+
+.frameanim {
+    width: 50vw;
+    height: 36vw;
+    display: flex;
+    margin-left: 0vw;
+    position: absolute;
+}
+
+
+.roseanim {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    margin-left: 50vw;
+    position: absolute;
+
+} 
+
+
+/* 3 block */
+
+.thirdblock{
+    position: relative;
+    width: 100%;
+    height: 40vw;
+    margin-top: 1vw;
+    overflow: hidden;
+}
+
+.glasses {
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+
+}
+
+.immersive {
+    font-size: 6vw;
+    font-family: "HalvarBreitschriftExtraThin";
+    display: flex;
+    margin-top: -2vw;
+    margin-left: -1vw;
+    position: absolute;
+    animation: imme 0.8s linear infinite ;
+    
+
+}
+
+@keyframes imme{
+    from {transform: translateY(-10%);}
+    to {transform: translateY(10%) }
+    }
+
+
+.art {
+    font-size: 6vw;
+    margin-left: 51vw;
+    margin-top: 0vw;
+    font-family: "HalvarBreitschriftExtraThin";
+    display: flex;
+    position: absolute;
+    animation: ar 0.8s linear infinite;
+}
+
+@keyframes ar{
+    from {transform: translateY(-10%);}
+    to {transform: translateY(10%) }
+    }
+
+/* 4 block */
+
+.fourthblock {
+    position: relative;
+    width: 150%;
+    height: 9vw;
+    margin-top: 2vw;
+    overflow: hidden;
+
+}
+
+.aboutfour {
+    font-size: 5vw;
+    font-family: "HalvarBreitschriftBold";
+    display: flex;
+    width: 150%;
+    height: 20vw;
+    margin-left: -1vw;
+    margin-top: -3.3vw;
+    position: absolute;
+    color: #FFFF;
+    overflow: hidden;
+}
+
+.aboutfour:hover {
+    background-color: #3CAB55;
+    transition: all .1.5s ease-in-out
+}
+
+
+/* 5 block */
+
+.fifthblock {
+    position: relative;
+    width: 100%;
+    height: 36vw;
+    overflow: hidden;
+    margin-top: 5vw;
+}
+
+.timeframe {
+    width: 25vw;
+    height: 36vw;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -5.1vw;
+}
+
+.upframe {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-left: 25vw;
+    overflow: hidden;
+    margin-top: -5.1vw;
+}
+
+.squareframe {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-left: 50vw;
+    overflow: hidden;
+    margin-top: -5.1vw;
+}
+
+.uplineframe {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-left: 75vw;
+    overflow: hidden;
+    margin-top: -5.1vw;
+}
+
+.time {
+    width: 15vw;
+    height: 26vw;
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    overflow: hidden;
+}
+
+.up {
+    width: 20vw;
+    height: 31vw;
+    display: flex;
+    margin-left: 28vw;
+    margin-top: -28vw;
+    overflow: hidden;
+}
+
+.square {
+    width: 15vw;
+    height: 26vw;
+    display: flex;
+    margin-left: 55vw;
+    margin-top: -29vw;
+    overflow: hidden;
+}
+
+.upline {
+    width: 19vw;
+    height: 30vw;
+    display: flex;
+    margin-left: 78vw;
+    margin-top: -28vw;
+    overflow: hidden;
+}
+
+/* 6 block */
+
+.sixthblock {
+    position: relative;
+    width: 100%;
+    height: 36vw;
+    
+}
+
+
+.sevenone {
+
+    width: 25vw;
+    height: 39vw;
+    display: flex;
+    position: absolute;
+    margin-left: 0vw;
+    margin-top: 2.8vw;
+    overflow: hidden;
+    opacity: 100%;
+   
+}
+
+/* extra 2 */
+
+
+.sevenone:hover{
+    opacity: 0%;
+    }
+
+
+.greenanim {
+    width: 25vw;
+    height: 39vw;
+    display: flex;
+    margin-left: 0vw;
+    position: absolute;
+    margin-top: 2.8vw;
+}
+
+/* extra 2 */
+
+.seventwo {
+    width: 25vw;
+    height: 39vw;
+    display: flex;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 2.8vw;
+}
+
+.seventworomb {
+    width: 17vw;
+    height: 26vw;
+    display: flex;
+    margin-left: 29vw;
+    margin-top: 8.5vw;
+    position: absolute;
+}
+
+
+.changing {
+    width: 50vw;
+    height: 39vw;
+    display: flex;
+    margin-left: 50vw;
+    position: absolute;
+    margin-top: 2.8vw;
+
+}
+
+
+
+
+/* 7 block */
+
+.seventhblock {
+    position: relative;
+    width: 100%;
+    height: 36vw;
+    margin-top: 7.8vw;
+
+}
+
+.geometria {
+    width: 50vw;
+    height: 39vw;
+    display: flex;
+    margin-left: 0vw;
+    position: absolute;  
+    margin-top: -2vw;
+
+}
+
+.sevenrombtwo {
+    width: 17vw;
+    height: 26vw;
+    display: flex;
+    margin-left: 54vw;
+    margin-top: 3.6vw;
+    position: absolute;
+}
+
+.seventhree {
+    width: 25vw;
+    height: 39vw;
+    display: flex;
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -2vw;
+   
+}
+
+
+.sevenfour {
+    width: 25vw;
+    height: 39vw;
+    display: flex;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: -2vw;
+    overflow: hidden;
+    opacity: 100%;
+}
+
+/* extra 3 */
+.greenanimtwo {
+    width: 25vw;
+    height: 39vw;
+    display: flex;
+    margin-left: 75vw;
+    margin-top: -2vw;
+    position: absolute;
+
+} 
+
+.sevenfour:hover{
+    opacity: 0%;
+    }
+/* extra 3 */
+
+
+
+/* 8 block */
+
+.eighthblock{
+    position: relative;
+    width: 200%;
+    height: 9vw;
+    overflow: hidden;
+    margin-top: 3vw;
+}
+
+.eighttext {
+    font-size: 5vw;
+    font-family: "HalvarBreitschriftBold";
+    display: flex;
+    width: 200%;
+    height: 5.3vw;
+    margin-left: -1.5vw;
+    margin-top: -0.5vw;
+    position: absolute;
+    color: #2F1CFF;
+    overflow: hidden;
+    animation: et 7s linear infinite;
+}
+  
+.eighttext:hover {
+    color: #ED7DFF;
+    transition: all .1.5s ease-in-out
+}
+
+@keyframes et{
+    from {text-indent: 40%;}
+    to {text-indent: -110%;}
+    }
+
+ 
+/* 9 block */
+
+.ninethblock{
+    position: relative;
+    width: 100%;
+    height: 36vw;
+
+}
+
+.beginframe {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-top: -2vw;
+    
+}
+
+.midframe {
+    width: 25.1vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-top: -2vw;
+    margin-left: 24.9vw;
+   
+}
+
+.midtwoframe {
+    width: 25vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-top: -2vw;
+    margin-left: 50vw;
+    
+}
+
+.finframe {
+    width: 26vw;
+    height: 36vw;
+    display: flex;
+    position: absolute;
+    margin-top: -2vw;
+    margin-left: 74.9vw;
+   
+}
+
+.snake {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    margin-top: 0vw;
+    
+}
+
+.snaketwo {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    margin-top: -24vw;
+    margin-left: -2vw;
+    
+}
+
+.serpant {
+    width: 50vw;
+    height: 25vw;
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 1vw;
+}
+
+.serpanttwo {
+    width: 50vw;
+    height: 25vw;
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 51vw;
+} 
+
+
+/* 10 block */
+
+.tenthblock{
+    position: relative;
+    width: 100%;
+    height: 36vw;
+
+}
+
+.dateone {
+    width: 52.2vw;
+    height: 42vw;
+    display: flex;
+    position: absolute;
+    margin-top: -2vw;
+    overflow: hidden;
+    margin-left: 0vw;
+}
+
+.round {
+    width: 45vw;
+    height: 32vw;
+    display: flex;
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 52.5vw;
+    overflow: hidden;
+
+}
+
+/* 11 block */
+
+.eleventhblock{
+    position: relative;
+    width: 100%;
+    height: 7vw;
+    margin-top: -1vw;
+    
+}
+
+.lastblock {
+    width: 100vw;
+    height: 8vw;
+    display: flex;
+    margin-top: -2vw;
+    overflow: hidden;
+}
+
+.lasttextf {
+
+    font-size: 1.6vw;
+    font-family: "HalvarBreitschriftRegular";
+    display: flex;
+    width: 200%;
+    height: 5.3vw;
+    margin-left: 2.3vw;
+    margin-top: 2.5vw;
+    position: absolute;
+    color: #FFFF;
+    overflow: hidden;
+
+}
+
+.lasttexts {
+
+    font-size: 1.6vw;
+    font-family: "HalvarBreitschriftRegular";
+    display: flex;
+    width: 200%;
+    height: 5.3vw;
+    margin-left: 70.5vw;
+    margin-top: 2.5vw;
+    position: absolute;
+    color: #FFFF;
+    overflow: hidden;
+
+}
+
+
+
+/* animation of 1 block */
+
+.grandone{
+    font-size: 14vw;
+    margin-top: 10vw;
+    font-family: "HalvarBreitschriftThin";
+    display: flex;
+    margin-left: 1vw;
+    animation: one 2.6s linear infinite;
+    overflow: hidden;
+}
+
+
+@keyframes one{
+from {text-indent: -90%;}
+to {text-indent: 110%;}
+}
+
+
+
+.grandtwo{
+    font-size: 14vw;
+    margin-top: 10vw;
+    font-family: "HalvarBreitschriftLightSuperSlanted";
+    display: flex;
+    margin-left: -24vw;
+    color: #FFC700;
+    animation: two 2.6s linear infinite;
+    overflow: hidden;
+   
+
+}
+
+@keyframes two{
+    from {text-indent: -90%;}
+    to {text-indent: 110%; }
+    }
+
+.grandthree{
+    font-size: 14vw;
+    font-family: "HalvarBreitschriftRegular";
+    display: flex;
+    margin-top: 10vw;
+    margin-left: -43vw;
+    animation: three 2.6s linear infinite;
+    overflow: hidden;
+    
+}
+
+
+@keyframes three{
+    from {text-indent: -90%;}
+    to {text-indent: 110%;}
+    }
+
+
+.grandfour{
+    font-size: 14vw;
+    font-family: "HalvarBreitschriftThinSuperSlanted";
+    display: flex;
+    margin-top: 10vw;
+    margin-left: -63vw;
+    color: #FF2215;
+    animation: four 2.6s linear infinite;
+    overflow: hidden;
+   
+}
+
+@keyframes four{
+    from {text-indent: -90%;}
+    to {text-indent: 110%;}
+    }
+
+    
+
+
+
+
+   
+   
+   
